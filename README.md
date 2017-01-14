@@ -1,18 +1,12 @@
 # PrimaryNumbers
 Different Python studies about prime number, sorting and imaging their distribution in original ways
 
-Projects* :
-- UT
-  -- ut.java
-  -- utx.java
-Primary engine for primary finding. Quite basic web-found algorithms implemented to be used on demand.
-
-- GraphX :
-  -- graphX
-Allows to plot numbers on Gephi with factor rules. (n = p*p)
+Projects :
+- UT:
+  - ut.java : Primary engine for prime factorisation. (web-found algorithm implemented to be usable on demand)
+  - utx.java : Gephi streamer for prime number visualisation. 
 
 - Sound :
-  -- Sound
-  -- Song
-Allows to listen to numbers as sum of two sinusoids of frequency [ 1/p + 1/p ]
+  - Sound : sound generator based on prime numbers (use ut.java) as sums of sinusoids of frequency [ 1/p + 1/p2 ... + 1/pn ]
+  - Song : Allows to listen to different numbers put next to each other. 
   
