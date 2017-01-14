@@ -1,0 +1,36 @@
+
++++ How To Use Song.py +++
+
+There is a Test() function in Song. You can modify it directly to get instant results (the lazy way)
+
+Little tour of how Test() works:
+we'll use arbitrary variables a,b,c,d,e,f,s
+
+a=Song() <= Generates songmaker
+Doesn't need nor take any values. It just generates the arrays.
+
+b=sound.Sound(param) <= call Sound from Song (Parameters of the sound in Sound, not in Song)
+b=sound.Sound(volume=0.5,duration=0.3)
+As i'm making the tutorial, I see it's clearly not properly implemented. You can only modify volume, duration and framerate, 
+though I haven't tested different framerates yet (so it doesn't work, by principle). I remind you it's a curiosity-based algorithm which
+hasn't been build for distribution
+
+b.growtree(param) <= adds as a sound All the numbers up to param (here 680)
+b.growtree(680)
+Same than spread() of ut, allows to take them all and add them to the song. It makes some arpeggiato of the primes.
+
+a.addtoSuite(b) <= When Sound b is made, a.addtoSuite to add the sound b to Song a
+a.addtoSuite(b)
+Pretty self-explanatory
+
+d=sound.Sound() <= Then create up any sound you want, here d
+d.connect to add a number to factorize in prime frequencies (core organ)
+d.connect(300)
+
+a.addtoSuite(d) <= don t forget to add to suite ')
+a.addtoSuite(d)
+
+a.playall <= playing the whole suite added in Song...')
+a.playall()
+
+note : it used to have a function to hear sound, but I don't know why I removed it. I'll improve all this when I get my mind to it :)
