@@ -26,6 +26,7 @@ Pretty self-explanatory
 d=sound.Sound() <= Then create up any sound you want, here d
 d.connect to add a number to factorize in prime frequencies (core organ)
 d.connect(300)
+Connect uses one old algorithm i've made (utx) used to connect a number to its primes. I should implement a better version of Ut that doesn't require the extra step of going through the modulos, but when I built it I REALLY didn't want any false reading of false connection and didn't go for speed (I knew the algorithm through Gephi (Force Atlas) was limiting me anyway). It is in project too !
 
 a.addtoSuite(d) <= don t forget to add to suite ')
 a.addtoSuite(d)
