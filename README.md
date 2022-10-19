@@ -1,2 +1,2 @@
 # PrimaryNumbers
-Easy sieve without modulos
+Sort prime numbers using Gephi.
